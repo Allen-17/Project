@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<time.h>
+
 void add ();
 void sub ();
 void mul ();
@@ -14,7 +15,7 @@ int main (void)
         int s;
     
         Input:
-           printf("Input a number [ +(1), -(2), *(3), /(4), ^(5), prime factorization(6), !(7)] : ");
+           printf("Input a number within range [ +(1), -(2), *(3), /(4), ^(5), prime factorization(6), !(7)] : ");
            scanf("%d",&s);
          
            if (s > 7 | s < 1){
